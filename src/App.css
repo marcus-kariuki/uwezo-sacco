@@ -55,3 +55,22 @@
   background-color: #fff;
   color: #666;
 }
+.footer-container {
+  background-color: black ;
+  padding: 30px;
+
+}
+
+.footer-row {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-row {
+    margin-bottom: 0;
+  }
+}

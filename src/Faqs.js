@@ -7,6 +7,7 @@ import { Accordion, Container, Header, Icon } from 'semantic-ui-react';
 
 const Faqs = () =>{
     return(
+        <div id='section3' >
     <Container className='faq-container' textAlign="center">
   <h2>FAQs</h2>
   <Accordion styled>
@@ -41,6 +42,7 @@ const Faqs = () =>{
     </Accordion.Content>
   </Accordion>
 </Container>
+</div>
 
     );
 }

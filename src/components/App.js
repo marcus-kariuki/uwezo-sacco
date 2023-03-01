@@ -5,6 +5,7 @@ import { Container, } from 'semantic-ui-react';
 import About from '../About';
 import Services from '../Services';
 import Faqs from '../Faqs';
+import Footer from '../Footer';
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
     </Container>
 
     <Container text style={{ marginTop: '17em' }}>
-      <h2>Footer</h2>
+      <Footer/>
     </Container>
 
 

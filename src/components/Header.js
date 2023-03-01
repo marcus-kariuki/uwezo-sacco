@@ -24,7 +24,7 @@ function Header() {
           Faqs
          </Menu.Item>
 
-         <Menu.Item href="#section3">
+         <Menu.Item href="#">
           Sign Up
          </Menu.Item>
 
