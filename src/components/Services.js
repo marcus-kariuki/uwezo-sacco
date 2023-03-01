@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Card, Container, Divider, Grid, Header, Icon, Image } from 'semantic-ui-react';
+import { Card, Container,  Grid, Image } from 'semantic-ui-react';
 
 
 
