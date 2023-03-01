@@ -10,11 +10,11 @@
 
 .home-section {
   position: relative;
-  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://www.cdotrends.com/sites/default/files/iStock-1052990146.jpeg') no-repeat center center;
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url('https://www.cdotrends.com/sites/default/files/iStock-1052990146.jpeg') no-repeat center center;
   background-size: cover;
   width: 90%;
   margin-left: 60px;
-  height: 800px;
+  height: 1000px;
 
 }
 
@@ -25,4 +25,16 @@
   transform: translate(-50%, -50%);
   color: white;
   padding: 1em;
+}
+
+.about-container{
+  background-color: #fff;
+  padding: 50px;
+  color: black;
+  position: relative;
+  width: 100%;
+
+}
+.services-container{
+  color: whitesmoke;
 }

@@ -2,6 +2,8 @@ import '../App.css';
 import Header from './Header';
 import Home from './Home';
 import { Container, } from 'semantic-ui-react';
+import About from '../About';
+import Services from '../Services';
 
 function App() {
   return (
@@ -11,11 +13,11 @@ function App() {
     <Home/>
 
     <Container text style={{ marginTop: '17em' }}>
-      <h2>About us</h2>
+      <About/>
     </Container>
 
     <Container text style={{ marginTop: '17em' }}>
-      <h2>Services</h2>
+      <Services/>
     </Container>
 
     <Container text style={{ marginTop: '17em' }}>
