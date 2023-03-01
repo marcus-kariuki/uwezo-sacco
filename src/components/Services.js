@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import '../App.css';
 import { Card, Container, Divider, Grid, Header, Icon, Image } from 'semantic-ui-react';
 
 

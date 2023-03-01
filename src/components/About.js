@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Header, Container} from 'semantic-ui-react';
-import './App.css';
+import '../App.css';
 
 
 function About() {
