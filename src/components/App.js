@@ -1,11 +1,14 @@
 import '../App.css';
 import Header from './Header';
-import { Container, Grid, Header as SemanticHeader, List, Segment } from 'semantic-ui-react';
+import Home from './Home';
+import { Container, } from 'semantic-ui-react';
 
 function App() {
   return (
     <div className='my-app'>
     <Header/>
+
+    <Home/>
 
     <Container text style={{ marginTop: '17em' }}>
       <h2>About us</h2>

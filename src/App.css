@@ -2,10 +2,27 @@
   text-align: center;
 }
 .my-app{
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(https://free4kwallpapers.com/uploads/originals/2019/09/29/a-financial-district-wallpaper.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://free4kwallpapers.com/uploads/originals/2019/09/29/a-financial-district-wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
 }
 
+.home-section {
+  position: relative;
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://www.cdotrends.com/sites/default/files/iStock-1052990146.jpeg') no-repeat center center;
+  background-size: cover;
+  width: 90%;
+  margin-left: 60px;
+  height: 800px;
 
+}
+
+.home-section .overlay {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 1em;
+}
